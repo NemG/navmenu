@@ -1,0 +1,120 @@
+/***************************************************
+Add your Google Fonts
+Update ALL the named colours to create a monochromatic scheme
+Style the menus - one horizontally and one vertically
+Add the hover/active effects to your menu items
+***************************************************/
+@import url('https://fonts.googleapis.com/css?family=Istok+Web|Lora');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    /* ADD the Google sans-serif font to this font stack */
+    font-family: 'Istok Web', arial, sans-serif;
+}
+html, body{
+    background-color:#3E007F;
+}
+h1{
+    font-size: 6.854rem;
+    /* ADD the Google serif font to this font stack */
+    font-family:  'Lora', monospace, serif;
+    padding: 1rem 2rem;
+    color: #3E007F;
+}
+h2{
+    font-size: 4.23rem;
+    /* ADD the Google serif font to this font stack */
+    font-family: 'Lora', monospace, serif;
+    padding: 1rem 2rem;
+    color: #7C00FF;
+}
+nav li{
+    font-size: 2.618rem;
+    color: #52267F;;
+}
+p{
+    font-size: 1.618rem;
+    padding: 1rem 2rem;
+    colo: #6300CC
+}
+.wrapper{
+    max-width: 1400px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #6300CC;
+    color: #3E007F;
+}
+header{
+    border-bottom: 0.8rem solid #7C00FF;
+    background-color: #6300CC;
+    color: #3E007F;
+}
+.menu-h{
+    width: 100%;
+
+
+}
+    .menu-h li{
+        display:inline;
+        padding: 20px 20px 20px 20px;
+        color: #52267F;
+
+        /* style the list items to remove the bullets
+        and line up horizontally
+        and take up 20% of the width of the ul */
+    }
+        .menu-h a,
+        .menu-h a:link,
+        .menu-h a:visited{
+        width: 100%;
+
+            /* style the anchors to fill the entire width of the li
+            make sure there is padding around your text */
+        }
+        .menu-h a:hover,
+        .menu-h a:active{
+            border-style: dotted;
+            border-width: 24px;
+            color: #3E007F;
+        }
+.menu-v{
+    width: 20%;
+    float:left;
+    color: #52267F;
+
+
+}
+    .menu-v li{
+        display: block;
+        text-align: left;
+        width: 100%;
+
+
+        /* style the list items to remove the bullets
+        and line up vertically
+        and take up 100% of the width of the ul */
+    }
+        .menu-v a,
+        .menu-v a:link,
+        .menu-v a:visited{
+              width: 100%;
+            /* style the anchors to fill the entire width of the li */
+        }
+        .menu-v a:hover,
+        .menu-v a:active{
+            color: #3E007F;
+            text-shadow: 2px 30px;
+        }
+main{
+    width:80%;
+    float: right;
+}
+footer{
+    clear:both;
+}
